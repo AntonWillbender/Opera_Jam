@@ -30,3 +30,9 @@ if(cooldown<=0){
 	instance_create_layer(temp_x, temp_y, layer, obj_cow);
 	cooldown = 500000;
 }
+
+//tourner en rond
+theta += theta_speed;
+if (theta >= 360) theta -= 360;
+x = cx + lengthdir_x(r, theta);
+y = cy + lengthdir_y(r, theta);

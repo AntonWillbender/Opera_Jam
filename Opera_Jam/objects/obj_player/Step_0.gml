@@ -14,7 +14,9 @@ if(keyboard_check(vk_down)) && !standing y+=5;
 */
 if(keyboard_check_pressed(vk_space)){
 	standing = true;
-	instance_create_layer(x, y,layer, obj_beam);
+	var beam = instance_create_layer(x, y,layer, obj_beam);
+	beam.image_xscale = global.cow_size;
+	beam.image_yscale = global.cow_size;
 	//actual_beam = obj_beam.id;
 };
 

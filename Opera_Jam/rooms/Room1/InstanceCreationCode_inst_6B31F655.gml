@@ -1,0 +1,1 @@
+global.cow_size = 5;

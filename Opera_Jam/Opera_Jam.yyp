@@ -7,6 +7,7 @@
     {"id":{"name":"obj_cow","path":"objects/obj_cow/obj_cow.yy",},"order":2,},
     {"id":{"name":"spr_beam","path":"sprites/spr_beam/spr_beam.yy",},"order":1,},
     {"id":{"name":"spr_UFO","path":"sprites/spr_UFO/spr_UFO.yy",},"order":0,},
+    {"id":{"name":"init","path":"scripts/init/init.yy",},"order":17,},
     {"id":{"name":"Sprite2","path":"sprites/Sprite2/Sprite2.yy",},"order":15,},
     {"id":{"name":"Sprite3","path":"sprites/Sprite3/Sprite3.yy",},"order":16,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},

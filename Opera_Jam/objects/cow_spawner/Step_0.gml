@@ -1,6 +1,4 @@
 //spawning cow
-var cow_size = 10;
-
 cooldown -= delta_time;
 if(cooldown<=0){
 	
@@ -30,8 +28,8 @@ if(cooldown<=0){
 		default: show_debug_message("default"); break;
 	}
 	var inst = instance_create_layer(temp_x, temp_y, layer, obj_cow);
-	inst.image_xscale = cow_size;
-	inst.image_yscale = cow_size;
+	inst.image_xscale = global.cow_size;
+	inst.image_yscale = global.cow_size;
 	cooldown = 500000;
 }
 

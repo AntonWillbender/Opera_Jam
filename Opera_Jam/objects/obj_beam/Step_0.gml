@@ -7,7 +7,7 @@ if (cow_inst != noone){
 	beaming_timing -= delta_time;
 	if (beaming_timing <= 0){
 		instance_destroy(cow_inst);
-		global.p1_score += 10;
+		global.p1_score += 1;
 		show_debug_message(global.p1_score);
 		beaming_timing = 300000;
 	}

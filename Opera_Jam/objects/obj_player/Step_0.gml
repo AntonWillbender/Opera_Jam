@@ -27,6 +27,7 @@ if(keyboard_check_released(vk_space)){
 	}
 	standing = false;
 }
-
+global.mirror.x = x;
+global.mirror.y = y;
 //draw_text(score_x,score_y,global.p1_score);
 draw_text_color(score_x, score_y,global.p1_score,c_green,c_green,c_green,c_green,255);
